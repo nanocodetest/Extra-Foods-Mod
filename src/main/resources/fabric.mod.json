@@ -3,9 +3,9 @@
 	"id": "extra-foods-mod",
 	"version": "${version}",
 	"name": "Extra Foods Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This mod add new food into the game!",
 	"authors": [
-		"Me!"
+		"IceFireCreeper27"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
