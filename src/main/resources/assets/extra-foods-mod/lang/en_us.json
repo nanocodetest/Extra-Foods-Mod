@@ -1,10 +1,14 @@
 {
   "item.extra-foods-mod.hamburger": "Hamburger",
+  "item.extra-foods-mod.patty_burger": "Patty Burger",
+  "item.extra-foods-mod.cheeseburger": "Cheeseburger",
   "item.extra-foods-mod.mayonnaise": "Mayonnaise",
   "item.extra-foods-mod.ketchup": "Ketchup",
   "item.extra-foods-mod.lettuce": "Lettuce",
   "item.extra-foods-mod.tomato": "Tomato",
   "item.extra-foods-mod.patty": "Patty",
   "item.extra-foods-mod.bottom_bun": "Bottom Bun",
-  "item.extra-foods-mod.top_bun": "Top Bun"
-}
+  "item.extra-foods-mod.top_bun": "Top Bun",
+
+  "creativemodetab.extra-foods-mod.extra_food_items": "Extra Whole Foods",
+  "creativemodetab.extra-foods-mod.ingredient_items": "Extra Ingredients",

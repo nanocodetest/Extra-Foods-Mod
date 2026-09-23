@@ -1,5 +1,7 @@
 package com.nano;
 
+import com.nano.creativemodetab.ModCreativeModeTabs;
+import com.nano.food.ModFoods;
 import com.nano.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,6 +16,7 @@ public class ExtraFoodsMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModCreativeModeTabs.registerModCreativeModeTabs();
 		ModItems.registerModItems();
 
 		LOGGER.info("Hello Fabric world!");

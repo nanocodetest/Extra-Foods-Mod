@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "extra_food_items",
+  "key": {
+    "B": "extra-foods-mod:bottom_bun",
+    "P": "extra-foods-mod:patty",
+    "T": "extra-foods-mod:top_bun"
+  },
+  "pattern": [
+    " T ",
+    " P ",
+    " B "
+  ],
+  "result": {
+    "id": "extra-foods-mod:patty_burger"
+  }
+}

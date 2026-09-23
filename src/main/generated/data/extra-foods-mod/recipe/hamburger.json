@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "extra_food_items",
+  "key": {
+    "E": "extra-foods-mod:cheeseburger",
+    "K": "extra-foods-mod:ketchup",
+    "L": "extra-foods-mod:lettuce",
+    "M": "extra-foods-mod:mayonnaise",
+    "O": "extra-foods-mod:tomato"
+  },
+  "pattern": [
+    " E ",
+    "MKL",
+    " O "
+  ],
+  "result": {
+    "id": "extra-foods-mod:hamburger"
+  }
+}
