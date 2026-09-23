@@ -33,6 +33,8 @@ public class ModItems {
             .food(ModFoods.CHEESE, ModFoods.CHEESE_CONSUMABLE)));
     public static final Item PATTY = registerItem("patty", properties -> new Item(properties
             .food(ModFoods.PATTY, ModFoods.PATTY_CONSUMABLE)));
+    public static final Item RAW_PATTY = registerItem("raw_patty", properties -> new Item(properties
+            .food(ModFoods.RAW_PATTY, ModFoods.RAW_PATTY_CONSUMABLE)));
     public static final Item BOTTOM_BUN = registerItem("bottom_bun", properties -> new Item(properties
             .food(ModFoods.BOTTOM_BUN, ModFoods.BOTTOM_BUN_CONSUMABLE)));
     public static final Item TOP_BUN = registerItem("top_bun", properties -> new Item(properties
@@ -54,6 +56,7 @@ public class ModItems {
             output.accept(TOMATO);
             output.accept(CHEESE);
             output.accept(PATTY);
+            output.accept(RAW_PATTY);
             output.accept(BOTTOM_BUN);
             output.accept(TOP_BUN);
         });

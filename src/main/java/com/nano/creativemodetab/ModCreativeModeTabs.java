@@ -30,6 +30,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.TOP_BUN);
                         output.accept(ModItems.BOTTOM_BUN);
                         output.accept(ModItems.PATTY);
+                        output.accept(ModItems.RAW_PATTY);
                         output.accept(ModItems.MAYONNAISE);
                         output.accept(ModItems.KETCHUP);
                         output.accept(ModItems.LETTUCE);
