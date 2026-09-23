@@ -1,0 +1,17 @@
+// 26.3	-999999999-01-01T00:00:00	Extra Foods Mod/Model Definitions
+5a55208b00adef5ef46a056dfd8815b83df2008c assets/extra-foods-mod/items/bottom_bun.json
+88e49fffe90d65a38cb5f52fd4baf924ec121718 assets/extra-foods-mod/items/hamburger.json
+fc138a173e81eaa4d06b46c48231d784426d7566 assets/extra-foods-mod/items/ketchup.json
+ff798514b69e0a34600895b2790fc52567fedd97 assets/extra-foods-mod/items/lettuce.json
+6aef1f7d22a58eb2d032721d02a73007472d1320 assets/extra-foods-mod/items/mayonnaise.json
+13d7522f3ab18a463922f2e865c9701b23946785 assets/extra-foods-mod/items/patty.json
+d5e1175e5d129322ff911bf99e2fd1de3ca55fd1 assets/extra-foods-mod/items/tomato.json
+84e30f0ed414c1234d54ec8e838e87287ae2d417 assets/extra-foods-mod/items/top_bun.json
+dc510209f660cfc151670628b94f0c9e81bcda49 assets/extra-foods-mod/models/item/bottom_bun.json
+f8ca5421a8059666b07cd2f212b6803cff4f8e8e assets/extra-foods-mod/models/item/hamburger.json
+4717a648aa694694e045632768f1585753b99209 assets/extra-foods-mod/models/item/ketchup.json
+5b9f5e62dce11f7362dfaec6bac57606fafa4d9b assets/extra-foods-mod/models/item/lettuce.json
+17d037de56ae793d8e87a269f6f13fb97892f722 assets/extra-foods-mod/models/item/mayonnaise.json
+1f993cc7ea722fb4d59272b05d4da2d981258572 assets/extra-foods-mod/models/item/patty.json
+c243bb946162d2ba543f12f394a5495ee123eb1e assets/extra-foods-mod/models/item/tomato.json
+33db6b5e7d51afdb14803cecc9a44b7c73160ec7 assets/extra-foods-mod/models/item/top_bun.json
