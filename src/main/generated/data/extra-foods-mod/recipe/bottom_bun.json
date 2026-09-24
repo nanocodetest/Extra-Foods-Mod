@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "extra_food_items",
+  "key": {
+    "R": "minecraft:water_bucket",
+    "W": "minecraft:wheat",
+    "X": "minecraft:egg"
+  },
+  "pattern": [
+    "   ",
+    "   ",
+    "XWR"
+  ],
+  "result": {
+    "id": "extra-foods-mod:bottom_bun"
+  }
+}

@@ -6,6 +6,7 @@ a78350f7d79c4096401d65db3956e08ad0ea80f0 assets/extra-foods-mod/items/french_fri
 4c757d4b63453d0669d8756c1bde7bfe61823629 assets/extra-foods-mod/items/french_fries_carton.json
 94b48acc3405d7a7c362ebec7710125b728560f5 assets/extra-foods-mod/items/fries.json
 88e49fffe90d65a38cb5f52fd4baf924ec121718 assets/extra-foods-mod/items/hamburger.json
+78bad3eb8ab845aca9c6237ec8dc9c33236a16cc assets/extra-foods-mod/items/hammer.json
 fc138a173e81eaa4d06b46c48231d784426d7566 assets/extra-foods-mod/items/ketchup.json
 5a727f3eb393bb1ca6aacbb18c810013bde8a653 assets/extra-foods-mod/items/knife.json
 ff798514b69e0a34600895b2790fc52567fedd97 assets/extra-foods-mod/items/lettuce.json
@@ -22,6 +23,7 @@ b820d74bfff1cf6542d4df1629147eb15af9d6c4 assets/extra-foods-mod/models/item/chee
 116b5e9ca47d6d0bfb86e5d8ed1db4baad1619b6 assets/extra-foods-mod/models/item/french_fries_carton.json
 6c72a9e099b5692ad484b5ba00b689e3084b4204 assets/extra-foods-mod/models/item/fries.json
 f8ca5421a8059666b07cd2f212b6803cff4f8e8e assets/extra-foods-mod/models/item/hamburger.json
+b8e473350092d366b2938b58e189ed356022a906 assets/extra-foods-mod/models/item/hammer.json
 4717a648aa694694e045632768f1585753b99209 assets/extra-foods-mod/models/item/ketchup.json
 d3c7f26975d2b42778042efeae33be6802a78c83 assets/extra-foods-mod/models/item/knife.json
 5b9f5e62dce11f7362dfaec6bac57606fafa4d9b assets/extra-foods-mod/models/item/lettuce.json

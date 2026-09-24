@@ -2,14 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "group": "extra_food_items",
   "key": {
-    "K": "minecraft:baked_potato",
-    "P": "extra-foods-mod:knife"
+    "U": "minecraft:wheat",
+    "V": "minecraft:egg"
   },
   "pattern": [
-    " P",
-    " K"
+    "VU ",
+    "   ",
+    "   "
   ],
   "result": {
-    "id": "extra-foods-mod:fries"
+    "id": "extra-foods-mod:top_bun"
   }
 }

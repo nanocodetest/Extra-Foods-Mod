@@ -57,21 +57,55 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("extra_food_items")
                         .save(output);
 
+                shaped(RecipeCategory.MISC, ModItems.PATTY)
+                        .pattern(" H")
+                        .pattern(" S")
+                        .define('H', ModItems.HAMMER)
+                        .define('S', Items.BEEF)
+                        .unlockedBy("has_beef", has(Items.BEEF))
+                        .group("extra_food_items")
+                        .save(output);
+
                 shaped(RecipeCategory.MISC, ModItems.FRIES)
                         .pattern(" P")
                         .pattern(" K")
-                        .define('K', ModItems.KNIFE)
-                        .define('P', Items.BAKED_POTATO)
+                        .define('P', ModItems.KNIFE)
+                        .define('K', Items.BAKED_POTATO)
                         .unlockedBy("has_baked_potato", has(Items.BAKED_POTATO))
                         .group("extra_food_items")
                         .save(output);
 
                 shaped(RecipeCategory.MISC, ModItems.FRENCH_FRIES)
                         .pattern(" F")
-                        .pattern(" C")
+                        .pattern(" N")
                         .define('F', ModItems.FRIES)
-                        .define('C', ModItems.FRIES_CARTON)
+                        .define('N', ModItems.FRIES_CARTON)
                         .unlockedBy("has_patty", has(ModItems.PATTY))
+                        .group("extra_food_items")
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, ModItems.BOTTOM_BUN)
+                        .pattern("   ")
+                        .pattern("   ")
+                        .pattern("XWR")
+                        .define('X', Items.EGG)
+                        .define('W', Items.WHEAT)
+                        .define('R', Items.WATER_BUCKET)
+                        .unlockedBy("has_egg", has(Items.EGG))
+                        .unlockedBy("has_egg", has(Items.WHEAT))
+                        .unlockedBy("has_egg", has(Items.WATER_BUCKET))
+                        .group("extra_food_items")
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, ModItems.TOP_BUN)
+                        .pattern("VU ")
+                        .pattern("   ")
+                        .pattern("   ")
+                        .define('V', Items.EGG)
+                        .define('U', Items.WHEAT)
+                        .unlockedBy("has_egg", has(Items.EGG))
+                        .unlockedBy("has_egg", has(Items.WHEAT))
+                        .unlockedBy("has_egg", has(Items.WATER_BUCKET))
                         .group("extra_food_items")
                         .save(output);
             }

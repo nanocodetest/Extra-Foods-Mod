@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "group": "extra_food_items",
   "key": {
-    "C": "extra-foods-mod:french_fries_carton",
-    "F": "extra-foods-mod:fries"
+    "F": "extra-foods-mod:fries",
+    "N": "extra-foods-mod:french_fries_carton"
   },
   "pattern": [
     " F",
-    " C"
+    " N"
   ],
   "result": {
     "id": "extra-foods-mod:french_fries"

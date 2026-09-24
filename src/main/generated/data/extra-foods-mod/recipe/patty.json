@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "group": "extra_food_items",
   "key": {
-    "K": "minecraft:baked_potato",
-    "P": "extra-foods-mod:knife"
+    "H": "extra-foods-mod:hammer",
+    "S": "minecraft:beef"
   },
   "pattern": [
-    " P",
-    " K"
+    " H",
+    " S"
   ],
   "result": {
-    "id": "extra-foods-mod:fries"
+    "id": "extra-foods-mod:patty"
   }
 }

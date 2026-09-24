@@ -18,6 +18,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativemodetab.extra-foods-mod.extra_item_tab"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.KNIFE);
+                        output.accept(ModItems.HAMMER);
                         output.accept(ModItems.FRIES_CARTON);
                     }).build());
 

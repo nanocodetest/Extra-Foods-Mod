@@ -16,6 +16,7 @@ import java.util.function.Function;
 public class ModItems {
     //Items
     public static final Item KNIFE = registerItem("knife", Item::new);
+    public static final Item HAMMER = registerItem("hammer", Item::new);
     public static final Item FRIES_CARTON = registerItem("french_fries_carton", Item::new);
 
     //Hamburger

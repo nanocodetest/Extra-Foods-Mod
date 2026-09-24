@@ -23,6 +23,7 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerators itemModelGenerators) {
         //Items
         itemModelGenerators.generateFlatItem(ModItems.KNIFE, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.HAMMER, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.FRIES_CARTON, ModelTemplates.FLAT_ITEM);
         //Hamburger
         itemModelGenerators.generateFlatItem(ModItems.HAMBURGER, ModelTemplates.FLAT_ITEM);
