@@ -14,6 +14,8 @@ public class ModFoods {
     public static final FoodProperties HAMBURGER = new FoodProperties.Builder().nutrition(3).saturationModifier(0.25f).build();
     public static final FoodProperties PATTY_BURGER = new FoodProperties.Builder().nutrition(3).saturationModifier(0.25f).build();
     public static final FoodProperties CHEESEBURGER = new FoodProperties.Builder().nutrition(3).saturationModifier(0.25f).build();
+    //French Fries
+    public static final FoodProperties FRENCH_FRIES = new FoodProperties.Builder().nutrition(3).saturationModifier(0.25f).build();
     //Ingredients
     public static final FoodProperties MAYONNAISE = new FoodProperties.Builder().nutrition(1).saturationModifier(0.25f).build();
     public static final FoodProperties KETCHUP = new FoodProperties.Builder().nutrition(1).saturationModifier(0.25f).build();
@@ -24,7 +26,9 @@ public class ModFoods {
     public static final FoodProperties RAW_PATTY = new FoodProperties.Builder().nutrition(1).saturationModifier(0.25f).build();
     public static final FoodProperties BOTTOM_BUN = new FoodProperties.Builder().nutrition(2).saturationModifier(0.25f).build();
     public static final FoodProperties TOP_BUN = new FoodProperties.Builder().nutrition(2).saturationModifier(0.25f).build();
+    public static final FoodProperties FRIES = new FoodProperties.Builder().nutrition(3).saturationModifier(0.25f).build();
 
+    //HAMBURGER
     public static final Consumable HAMBURGER_CONSUMABLE = Consumables.defaultFood()
             .consumeSeconds(1f).onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.HASTE, 300), 0.15f)).build();
     public static final Consumable PATTY_BURGER_CONSUMABLE = Consumables.defaultFood()
@@ -32,6 +36,11 @@ public class ModFoods {
     public static final Consumable CHEESEBURGER_CONSUMABLE = Consumables.defaultFood()
             .consumeSeconds(1f).onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.HASTE, 300), 0.15f)).build();
 
+    //FRENCH FRIES
+    public static final Consumable FRENCH_FRIES_CONSUMABLE = Consumables.defaultFood()
+            .consumeSeconds(1f).onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.HASTE, 300), 0.15f)).build();
+
+    //INGREDIENTS
     public static final Consumable MAYONNAISE_CONSUMABLE = Consumables.defaultFood()
             .consumeSeconds(1f).onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.NAUSEA, 200), 0.15f)).build();
     public static final Consumable KETCHUP_CONSUMABLE = Consumables.defaultFood()
@@ -49,5 +58,7 @@ public class ModFoods {
     public static final Consumable BOTTOM_BUN_CONSUMABLE = Consumables.defaultFood()
             .consumeSeconds(1f).onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.SATURATION, 200), 0.15f)).build();
     public static final Consumable TOP_BUN_CONSUMABLE = Consumables.defaultFood()
+            .consumeSeconds(1f).onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.SATURATION, 200), 0.15f)).build();
+    public static final Consumable FRIES_CONSUMABLE = Consumables.defaultFood()
             .consumeSeconds(1f).onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.SATURATION, 200), 0.15f)).build();
 }

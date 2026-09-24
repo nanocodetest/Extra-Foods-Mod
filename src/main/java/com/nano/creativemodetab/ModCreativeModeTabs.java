@@ -12,6 +12,15 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 
 public class ModCreativeModeTabs {
+    public static final CreativeModeTab EXTRA_ITEM_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
+            Identifier.fromNamespaceAndPath(ExtraFoodsMod.MOD_ID, "extra_item_tab"),
+            FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.KNIFE))
+                    .title(Component.translatable("creativemodetab.extra-foods-mod.extra_item_tab"))
+                    .displayItems((parameters, output) -> {
+                        output.accept(ModItems.KNIFE);
+                        output.accept(ModItems.FRIES_CARTON);
+                    }).build());
+
     public static final CreativeModeTab EXTRA_FOOD_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
             Identifier.fromNamespaceAndPath(ExtraFoodsMod.MOD_ID, "extra_food_items"),
             FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.HAMBURGER))
@@ -20,6 +29,7 @@ public class ModCreativeModeTabs {
                     output.accept(ModItems.HAMBURGER);
                     output.accept(ModItems.PATTY_BURGER);
                     output.accept(ModItems.CHEESEBURGER);
+                    output.accept(ModItems.FRENCH_FRIES);
                 }).build());
 
     public static final CreativeModeTab INGREDIENTS_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
@@ -36,6 +46,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.LETTUCE);
                         output.accept(ModItems.TOMATO);
                         output.accept(ModItems.CHEESE);
+                        output.accept(ModItems.FRIES);
                     }).build());
 
     public static void registerModCreativeModeTabs() {

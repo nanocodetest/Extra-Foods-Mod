@@ -7,18 +7,11 @@ import net.minecraft.advancements.Advancement;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeProvider;
-import net.minecraft.data.recipes.ShapedRecipeBuilder;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.world.item.Items;
-import net.minecraft.world.item.crafting.AbstractCookingRecipe;
-import net.minecraft.world.item.crafting.CookingBookCategory;
 import net.minecraft.world.item.crafting.Recipe;
-import net.minecraft.world.level.ItemLike;
 
-import java.util.List;
 import java.util.concurrent.CompletableFuture;
-
-import static net.minecraft.data.recipes.ShapedRecipeBuilder.shaped;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
     public ModRecipeProvider(FabricPackOutput output, CompletableFuture<HolderLookup.Provider> registriesFuture) {
@@ -60,6 +53,24 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('K', ModItems.KETCHUP)
                         .define('L', ModItems.LETTUCE)
                         .define('O', ModItems.TOMATO)
+                        .unlockedBy("has_patty", has(ModItems.PATTY))
+                        .group("extra_food_items")
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, ModItems.FRIES)
+                        .pattern(" P")
+                        .pattern(" K")
+                        .define('K', ModItems.KNIFE)
+                        .define('P', Items.BAKED_POTATO)
+                        .unlockedBy("has_baked_potato", has(Items.BAKED_POTATO))
+                        .group("extra_food_items")
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, ModItems.FRENCH_FRIES)
+                        .pattern(" F")
+                        .pattern(" C")
+                        .define('F', ModItems.FRIES)
+                        .define('C', ModItems.FRIES_CARTON)
                         .unlockedBy("has_patty", has(ModItems.PATTY))
                         .group("extra_food_items")
                         .save(output);

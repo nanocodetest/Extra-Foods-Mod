@@ -21,10 +21,15 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerators itemModelGenerators) {
+        //Items
+        itemModelGenerators.generateFlatItem(ModItems.KNIFE, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.FRIES_CARTON, ModelTemplates.FLAT_ITEM);
         //Hamburger
         itemModelGenerators.generateFlatItem(ModItems.HAMBURGER, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.PATTY_BURGER, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.CHEESEBURGER, ModelTemplates.FLAT_ITEM);
+        //French Fries
+        itemModelGenerators.generateFlatItem(ModItems.FRENCH_FRIES, ModelTemplates.FLAT_ITEM);
         //Ingredients
         itemModelGenerators.generateFlatItem(ModItems.MAYONNAISE, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.KETCHUP, ModelTemplates.FLAT_ITEM);
@@ -35,5 +40,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateFlatItem(ModItems.RAW_PATTY, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.BOTTOM_BUN, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.TOP_BUN, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.FRIES, ModelTemplates.FLAT_ITEM);
     }
 }

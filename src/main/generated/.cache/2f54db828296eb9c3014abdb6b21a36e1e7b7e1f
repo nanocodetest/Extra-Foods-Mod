@@ -1,7 +1,11 @@
 // 26.3	-999999999-01-01T00:00:00	Extra Foods Mod/ExtraFoodsRecipes
 df55abb99ef822eaf6a8e24fa75013f3dd63fda3 data/extra-foods-mod/advancement/recipes/misc/cheeseburger.json
+dcee033ed77458a343dc3b087a93ee5b953d9ffa data/extra-foods-mod/advancement/recipes/misc/french_fries.json
+f480b3b4f3b48c457a19819f41d79d1b89cda93d data/extra-foods-mod/advancement/recipes/misc/fries.json
 4210808b8d63d51b57d470701d540bf2a9337a21 data/extra-foods-mod/advancement/recipes/misc/hamburger.json
 68ff01e1a43cf04197d5076cfa916bcc1f3eabfa data/extra-foods-mod/advancement/recipes/misc/patty_burger.json
 60cd3c6fcdf014a4b7164bfcb0527383fbca3d31 data/extra-foods-mod/recipe/cheeseburger.json
+787e22eaa7b58e973d86e5fa8b0a581b4b635d3f data/extra-foods-mod/recipe/french_fries.json
+a312455c94dafded251b99e02aae308b9e641075 data/extra-foods-mod/recipe/fries.json
 9019a172b135cf57b4d2b1ee9c09be76e5b3887f data/extra-foods-mod/recipe/hamburger.json
 a809fbb9e53e5d2111a81ad7d0ee460a2a659557 data/extra-foods-mod/recipe/patty_burger.json

@@ -2,6 +2,7 @@
   "item.extra-foods-mod.hamburger": "Hamburger",
   "item.extra-foods-mod.patty_burger": "Patty Burger",
   "item.extra-foods-mod.cheeseburger": "Cheeseburger",
+
   "item.extra-foods-mod.mayonnaise": "Mayonnaise",
   "item.extra-foods-mod.ketchup": "Ketchup",
   "item.extra-foods-mod.lettuce": "Lettuce",
@@ -11,7 +12,13 @@
   "item.extra-foods-mod.raw_patty": "Raw Patty",
   "item.extra-foods-mod.bottom_bun": "Bottom Bun",
   "item.extra-foods-mod.top_bun": "Top Bun",
+  "item.extra-foods-mod.french_fries": "French Fries",
+  "item.extra-foods-mod.fries": "Fries",
+
+  "item.extra-foods-mod.french_fries_carton": "French Fries Carton",
+  "item.extra-foods-mod.knife": "Knife",
 
   "creativemodetab.extra-foods-mod.extra_food_items": "Extra Whole Foods",
-  "creativemodetab.extra-foods-mod.ingredient_items": "Extra Ingredients"
+  "creativemodetab.extra-foods-mod.ingredient_items": "Extra Ingredients",
+  "creativemodetab.extra-foods-mod.extra_item_tab": "Extra Items"
 }

@@ -2,8 +2,12 @@
 5a55208b00adef5ef46a056dfd8815b83df2008c assets/extra-foods-mod/items/bottom_bun.json
 c4a32d5b20a6c85e4eee6576ef4d8ef524d1519e assets/extra-foods-mod/items/cheese.json
 8d25788407f425f3cec17899790621ba638ba82e assets/extra-foods-mod/items/cheeseburger.json
+a78350f7d79c4096401d65db3956e08ad0ea80f0 assets/extra-foods-mod/items/french_fries.json
+4c757d4b63453d0669d8756c1bde7bfe61823629 assets/extra-foods-mod/items/french_fries_carton.json
+94b48acc3405d7a7c362ebec7710125b728560f5 assets/extra-foods-mod/items/fries.json
 88e49fffe90d65a38cb5f52fd4baf924ec121718 assets/extra-foods-mod/items/hamburger.json
 fc138a173e81eaa4d06b46c48231d784426d7566 assets/extra-foods-mod/items/ketchup.json
+5a727f3eb393bb1ca6aacbb18c810013bde8a653 assets/extra-foods-mod/items/knife.json
 ff798514b69e0a34600895b2790fc52567fedd97 assets/extra-foods-mod/items/lettuce.json
 6aef1f7d22a58eb2d032721d02a73007472d1320 assets/extra-foods-mod/items/mayonnaise.json
 13d7522f3ab18a463922f2e865c9701b23946785 assets/extra-foods-mod/items/patty.json
@@ -14,8 +18,12 @@ d5e1175e5d129322ff911bf99e2fd1de3ca55fd1 assets/extra-foods-mod/items/tomato.jso
 dc510209f660cfc151670628b94f0c9e81bcda49 assets/extra-foods-mod/models/item/bottom_bun.json
 b820d74bfff1cf6542d4df1629147eb15af9d6c4 assets/extra-foods-mod/models/item/cheese.json
 5118f2cb2c7832b5efe1f4d7fb1c64c62370a6d4 assets/extra-foods-mod/models/item/cheeseburger.json
+3077a1496e06993ff754e7a9007a33e1d6f00bd0 assets/extra-foods-mod/models/item/french_fries.json
+116b5e9ca47d6d0bfb86e5d8ed1db4baad1619b6 assets/extra-foods-mod/models/item/french_fries_carton.json
+6c72a9e099b5692ad484b5ba00b689e3084b4204 assets/extra-foods-mod/models/item/fries.json
 f8ca5421a8059666b07cd2f212b6803cff4f8e8e assets/extra-foods-mod/models/item/hamburger.json
 4717a648aa694694e045632768f1585753b99209 assets/extra-foods-mod/models/item/ketchup.json
+d3c7f26975d2b42778042efeae33be6802a78c83 assets/extra-foods-mod/models/item/knife.json
 5b9f5e62dce11f7362dfaec6bac57606fafa4d9b assets/extra-foods-mod/models/item/lettuce.json
 17d037de56ae793d8e87a269f6f13fb97892f722 assets/extra-foods-mod/models/item/mayonnaise.json
 1f993cc7ea722fb4d59272b05d4da2d981258572 assets/extra-foods-mod/models/item/patty.json

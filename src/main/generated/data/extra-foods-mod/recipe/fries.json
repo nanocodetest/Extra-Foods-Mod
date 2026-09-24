@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "extra_food_items",
+  "key": {
+    "K": "extra-foods-mod:knife",
+    "P": "minecraft:baked_potato"
+  },
+  "pattern": [
+    " P",
+    " K"
+  ],
+  "result": {
+    "id": "extra-foods-mod:fries"
+  }
+}
